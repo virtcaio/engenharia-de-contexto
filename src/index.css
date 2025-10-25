@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Cores do sistema (HSL) */
+    --primary: 24.6 95% 43.1%;
+    --primary-foreground: 60 9.1% 97.8%;
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24.6 95% 43.1%;
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-seasalt font-jakarta text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glass Card - Card com efeito vidro */
+  .glass-card {
+    @apply backdrop-blur-md bg-white/30 border border-white/40 shadow-sm;
+  }
+
+  /* Neo Button - Botão principal de CTA */
+  .neo-button {
+    @apply relative overflow-hidden transition-all duration-300
+           bg-tangerine text-white font-bold px-8 py-4
+           rounded-md shadow-md hover:shadow-lg hover:bg-tangerine/90
+           active:scale-95;
+  }
+
+  /* Container de Seção */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24;
+  }
+
+  /* Card de Feature */
+  .feature-card {
+    @apply rounded-xl p-6 shadow-sm transition-all duration-300
+           hover:shadow-md bg-white;
+  }
+
+  /* Tag/Badge */
+  .tag {
+    @apply inline-block bg-secondary px-3 py-1
+           rounded-full text-xs font-semibold;
+  }
+
+  /* Título de Seção */
+  .section-title {
+    @apply text-4xl sm:text-5xl font-bold mb-6 tracking-tight;
+  }
+
+  /* Subtítulo de Seção */
+  .section-subtitle {
+    @apply text-xl text-muted-foreground mb-12 max-w-3xl mx-auto;
+  }
+}
+
+@layer utilities {
+  /* Animação Float */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  /* Gradientes comuns */
+  .gradient-tangerine-viridian {
+    @apply bg-gradient-to-r from-tangerine to-viridian;
+  }
+
+  .gradient-tangerine-soft {
+    @apply bg-gradient-to-b from-tangerine/5 to-seasalt;
+  }
+
+  .gradient-highlight {
+    @apply bg-gradient-to-r from-tangerine/10 to-viridian/10;
+  }
+}
+
+/* Esconder scrollbar mas manter funcionalidade */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Responsive typography para mobile */
+@media (max-width: 640px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+}
