@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 import { useUTMs } from '@/lib/utm-utils'
 
 const Solution = () => {
-  const { getLastLinkWithUTMs } = useUTMs()
+  const { getInvestmentLink } = useUTMs()
 
   return (
     <section id="solucao" className="py-8 bg-white relative">
@@ -138,7 +138,7 @@ const Solution = () => {
             {/* CTA */}
             <div className="text-center">
               <Button variant="cta" size="lg" asChild>
-                <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">
+                <a href={getInvestmentLink()}>
                   QUERO DOMINAR O SISTEMA COMPLETO
                 </a>
               </Button>
