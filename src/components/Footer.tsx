@@ -26,7 +26,7 @@ const Footer = () => {
                 className="text-white/70 hover:text-tangerine transition-colors"
                 aria-label="YouTube"
               >
-                <Youtube className="h-6 w-6" />
+                <Youtube className="h-6 w-6" aria-hidden="true" />
               </a>
               <a
                 href="https://www.instagram.com/caiointeligenciaartificial"
@@ -35,7 +35,7 @@ const Footer = () => {
                 className="text-white/70 hover:text-tangerine transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram className="h-6 w-6" />
+                <Instagram className="h-6 w-6" aria-hidden="true" />
               </a>
               <a
                 href="https://www.linkedin.com/in/caiopiubelo"
@@ -44,7 +44,7 @@ const Footer = () => {
                 className="text-white/70 hover:text-tangerine transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="h-6 w-6" />
+                <Linkedin className="h-6 w-6" aria-hidden="true" />
               </a>
             </div>
           </div>
@@ -89,8 +89,9 @@ const Footer = () => {
             <a
               href="mailto:contato@caioia.com"
               className="text-white/70 hover:text-tangerine transition-colors flex items-center gap-2"
+              aria-label="Enviar email para contato@caioia.com"
             >
-              <Mail className="h-5 w-5" />
+              <Mail className="h-5 w-5" aria-hidden="true" />
               contato@caioia.com
             </a>
           </div>

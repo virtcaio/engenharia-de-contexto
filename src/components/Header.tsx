@@ -61,12 +61,13 @@ const Header = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up opacity-0"
           style={{ animationDelay: '900ms', animationFillMode: 'forwards' }}
         >
-          <Button variant="cta" size="lg" asChild>
+          <Button variant="cta" size="lg" asChild className="w-full sm:w-auto">
             <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">
-              QUERO APRENDER ENGENHARIA DE CONTEXTO
+              <span className="hidden sm:inline">QUERO APRENDER ENGENHARIA DE CONTEXTO</span>
+              <span className="sm:hidden">COMEÇAR AGORA</span>
             </a>
           </Button>
-          <Button variant="outline" size="lg" asChild>
+          <Button variant="outline" size="lg" asChild className="w-full sm:w-auto">
             <a href="#modulos">Ver Módulos do Curso</a>
           </Button>
         </div>

@@ -7,7 +7,7 @@ const Benefits = () => {
 
   const differentials = [
     {
-      icon: <LinkIcon className="h-8 w-8 text-tangerine" />,
+      icon: <LinkIcon className="h-8 w-8 text-tangerine" aria-hidden="true" />,
       title: 'IA Conectada (Suas Ferramentas)',
       subtitle: 'O que 99% dos cursos de IA não te ensina.',
       description: 'IA conectada com suas ferramentas.',
@@ -30,7 +30,7 @@ const Benefits = () => {
       highlight: 'Não é "futuro". É agora. E quase ninguém sabe.',
     },
     {
-      icon: <Bot className="h-8 w-8 text-tangerine" />,
+      icon: <Bot className="h-8 w-8 text-tangerine" aria-hidden="true" />,
       title: 'IA Automática (Sempre Atualizada)',
       subtitle: 'Configure uma vez. Use pra sempre.',
       description: 'IA que aprende sozinha:',
@@ -47,7 +47,7 @@ const Benefits = () => {
       result: 'Economia de 2-3 horas/semana em trabalho manual.',
     },
     {
-      icon: <Briefcase className="h-8 w-8 text-tangerine" />,
+      icon: <Briefcase className="h-8 w-8 text-tangerine" aria-hidden="true" />,
       title: '7 Templates Prontos (Não Teoria)',
       subtitle: 'Newsletter, PDFs, Carrosséis, Mentor IA...',
       description: 'Cada template é:',
@@ -148,7 +148,7 @@ const Benefits = () => {
                   <ul className="space-y-1 mb-3">
                     {diff.notIs.map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <X className="h-4 w-4 text-red-500 flex-shrink-0" />
+                        <X className="h-4 w-4 text-red-500 flex-shrink-0" aria-hidden="true" />
                         <span className="text-muted-foreground text-sm">{item}</span>
                       </li>
                     ))}
@@ -157,7 +157,7 @@ const Benefits = () => {
                   <ul className="space-y-1">
                     {diff.is && diff.is.map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <Check className="h-4 w-4 text-green-600 flex-shrink-0" />
+                        <Check className="h-4 w-4 text-green-600 flex-shrink-0" aria-hidden="true" />
                         <span className="text-muted-foreground text-sm">{item}</span>
                       </li>
                     ))}
@@ -206,7 +206,7 @@ const Benefits = () => {
             {/* ANTES */}
             <div className="p-8 rounded-xl bg-red-50 border-2 border-red-200">
               <h3 className="text-2xl font-bold mb-6 text-red-900 flex items-center gap-2">
-                <X className="h-6 w-6" />
+                <X className="h-6 w-6" aria-hidden="true" />
                 ANTES (Dependência)
               </h3>
               <ul className="space-y-4">
@@ -220,7 +220,7 @@ const Benefits = () => {
                   'Usando IA a 20% do potencial',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <X className="h-5 w-5 text-red-600 flex-shrink-0" />
+                    <X className="h-5 w-5 text-red-600 flex-shrink-0" aria-hidden="true" />
                     <span className="text-muted-foreground">{item}</span>
                   </li>
                 ))}
@@ -230,7 +230,7 @@ const Benefits = () => {
             {/* DEPOIS */}
             <div className="p-8 rounded-xl bg-green-50 border-2 border-green-200">
               <h3 className="text-2xl font-bold mb-6 text-green-900 flex items-center gap-2">
-                <Check className="h-6 w-6" />
+                <Check className="h-6 w-6" aria-hidden="true" />
                 DEPOIS (Autonomia)
               </h3>
               <ul className="space-y-4">
@@ -245,7 +245,7 @@ const Benefits = () => {
                   'Usando IA a 100% do potencial',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <Check className="h-5 w-5 text-green-600 flex-shrink-0" aria-hidden="true" />
                     <span className="text-muted-foreground">{item}</span>
                   </li>
                 ))}

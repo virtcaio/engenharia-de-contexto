@@ -8,7 +8,7 @@ const Target = () => {
   const forYou = [
     'Você usa IA no trabalho (qualquer uma)',
     'Você tem resultados inconsistentes (às vezes bom, às vezes ruim)',
-    'Você quer entender POR QUÊ funciona (não só copiar prompts)',
+    'Você quer entender POR QUE funciona (não só copiar prompts)',
     'Você quer IA que funciona a 100% (não 20%)',
     'Você quer automação real (não trabalho manual)',
     'Você quer templates prontos (não teoria)',
@@ -41,9 +41,9 @@ const Target = () => {
                   <li
                     key={idx}
                     className="flex items-start gap-3 animate-fade-up opacity-0"
-                    style={{ animationDelay: `${300 + idx * 100}ms`, animationFillMode: 'forwards' }}
+                    style={{ animationDelay: `${300 + idx * 50}ms`, animationFillMode: 'forwards' }}
                   >
-                    <Check className="h-6 w-6 text-green-600 flex-shrink-0" />
+                    <Check className="h-6 w-6 text-green-600 flex-shrink-0" aria-hidden="true" />
                     <span className="text-lg text-muted-foreground">{item}</span>
                   </li>
                 ))}
@@ -54,7 +54,7 @@ const Target = () => {
           {/* NÃO é para você */}
           <div
             className="mb-12 animate-fade-up opacity-0"
-            style={{ animationDelay: '1100ms', animationFillMode: 'forwards' }}
+            style={{ animationDelay: '700ms', animationFillMode: 'forwards' }}
           >
             <h2 className="section-title mb-8">
               Este curso <span className="text-red-600">NÃO é para você</span> se:
@@ -65,9 +65,9 @@ const Target = () => {
                   <li
                     key={idx}
                     className="flex items-start gap-3 animate-fade-up opacity-0"
-                    style={{ animationDelay: `${1300 + idx * 100}ms`, animationFillMode: 'forwards' }}
+                    style={{ animationDelay: `${800 + idx * 50}ms`, animationFillMode: 'forwards' }}
                   >
-                    <X className="h-6 w-6 text-red-500 flex-shrink-0" />
+                    <X className="h-6 w-6 text-red-500 flex-shrink-0" aria-hidden="true" />
                     <span className="text-lg text-muted-foreground">{item}</span>
                   </li>
                 ))}
@@ -78,7 +78,7 @@ const Target = () => {
           {/* CTA */}
           <div
             className="text-center animate-fade-up opacity-0"
-            style={{ animationDelay: '1900ms', animationFillMode: 'forwards' }}
+            style={{ animationDelay: '1100ms', animationFillMode: 'forwards' }}
           >
             <Button variant="cta" size="lg" asChild>
               <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">

@@ -10,7 +10,7 @@ const Features = () => {
   const modules = [
     {
       id: '1',
-      icon: <Target className="h-6 w-6 text-tangerine" />,
+      icon: <Target className="h-6 w-6 text-tangerine" aria-hidden="true" />,
       title: 'MÓDULO 1: COMO IA FUNCIONA DE VERDADE',
       lessons: '11 aulas práticas',
       objective: 'Entender IA profundamente (não só usar).',
@@ -23,7 +23,7 @@ const Features = () => {
     },
     {
       id: '2',
-      icon: <Bot className="h-6 w-6 text-tangerine" />,
+      icon: <Bot className="h-6 w-6 text-tangerine" aria-hidden="true" />,
       title: 'MÓDULO 2: IA SEMPRE ATUALIZADA (Automação)',
       lessons: '1 aula prática',
       objective: 'Nunca mais fazer upload manual. IA sempre atualizada.',
@@ -36,7 +36,7 @@ const Features = () => {
     },
     {
       id: '3',
-      icon: <LinkIcon className="h-6 w-6 text-tangerine" />,
+      icon: <LinkIcon className="h-6 w-6 text-tangerine" aria-hidden="true" />,
       title: 'MÓDULO 3: IA CONECTADA (Suas Ferramentas)',
       lessons: '10 aulas de integrações',
       objective: 'IA enxerga TODO seu contexto de trabalho. Zero trabalho manual.',
@@ -57,7 +57,7 @@ const Features = () => {
     },
     {
       id: '4',
-      icon: <Briefcase className="h-6 w-6 text-tangerine" />,
+      icon: <Briefcase className="h-6 w-6 text-tangerine" aria-hidden="true" />,
       title: 'MÓDULO 4: 7 TEMPLATES PRONTOS',
       lessons: '7 aulas aplicadas',
       objective: 'Sair do curso com casos prontos pra aplicar hoje.',

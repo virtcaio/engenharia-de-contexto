@@ -37,6 +37,13 @@
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 104px; /* Offset para sticky nav (64px) + promo banner (40px) */
+  }
+
+  /* Focus visible global para acessibilidade */
+  *:focus-visible {
+    outline: 2px solid rgb(212, 94, 10); /* tangerine */
+    outline-offset: 2px;
   }
 }
 
@@ -126,13 +133,17 @@
 
 /* Responsive typography para mobile */
 @media (max-width: 640px) {
-  h1,
-  h2,
-  h3 {
-    font-size: 1.25rem;
-  }
-
+  /* Section title mantém tamanho responsivo (não forçar heading override global) */
   .section-title {
     font-size: 1.75rem;
+  }
+}
+
+/* Acessibilidade: Respeitar preferência de movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
