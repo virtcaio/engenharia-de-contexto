@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 import { useUTMs } from '@/lib/utm-utils'
 
 const Target = () => {
-  const { getLastLinkWithUTMs } = useUTMs()
+  const { getInvestmentLink } = useUTMs()
 
   const forYou = [
     'Você usa IA no trabalho (qualquer uma)',
@@ -81,7 +81,7 @@ const Target = () => {
             style={{ animationDelay: '1100ms', animationFillMode: 'forwards' }}
           >
             <Button variant="cta" size="lg" asChild>
-              <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">
+              <a href={getInvestmentLink()}>
                 SIM, ESTE CURSO É PRA MIM
               </a>
             </Button>

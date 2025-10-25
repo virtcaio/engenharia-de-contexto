@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 
-const CHECKOUT_URL = '#checkout' // Placeholder - substituir pelo link real
+// URL do checkout na LastLink
+const CHECKOUT_URL = 'https://lastlink.com/p/C46840776/checkout-payment'
+const CHECKOUT_CP = 'LANCAMENTOCONTEXTO'
 
 export const useUTMs = () => {
   const [utms, setUtms] = useState<Record<string, string>>({})
@@ -29,13 +31,33 @@ export const useUTMs = () => {
     }
   }, [])
 
-  const getLastLinkWithUTMs = () => {
-    const url = new URL(CHECKOUT_URL, window.location.origin)
+  // Para links antes da seção investimento - vai para #investimento
+  const getInvestmentLink = () => {
+    return 'https://contexto.caioia.com/#investimento'
+  }
+
+  // Para links na seção investimento e depois - vai para checkout com UTMs
+  const getCheckoutLinkWithUTMs = () => {
+    const url = new URL(CHECKOUT_URL)
+
+    // Adiciona parâmetro cp obrigatório
+    url.searchParams.set('cp', CHECKOUT_CP)
+
+    // Adiciona UTMs capturados
     Object.entries(utms).forEach(([key, value]) => {
       url.searchParams.set(key, value)
     })
+
     return url.toString()
   }
 
-  return { utms, getLastLinkWithUTMs }
+  // Mantém compatibilidade com código antigo (agora aponta para checkout)
+  const getLastLinkWithUTMs = getCheckoutLinkWithUTMs
+
+  return {
+    utms,
+    getLastLinkWithUTMs,
+    getInvestmentLink,
+    getCheckoutLinkWithUTMs
+  }
 }

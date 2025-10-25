@@ -2,7 +2,7 @@ import { Button } from './ui/button'
 import { useUTMs } from '@/lib/utm-utils'
 
 const Header = () => {
-  const { getLastLinkWithUTMs } = useUTMs()
+  const { getInvestmentLink } = useUTMs()
 
   return (
     <section className="relative bg-seasalt overflow-hidden">
@@ -62,7 +62,7 @@ const Header = () => {
           style={{ animationDelay: '900ms', animationFillMode: 'forwards' }}
         >
           <Button variant="cta" size="lg" asChild className="w-full sm:w-auto">
-            <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">
+            <a href={getInvestmentLink()}>
               <span className="hidden sm:inline">QUERO APRENDER ENGENHARIA DE CONTEXTO</span>
               <span className="sm:hidden">COMEÇAR AGORA</span>
             </a>

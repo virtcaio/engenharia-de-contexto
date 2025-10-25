@@ -106,6 +106,9 @@ const Pricing = () => {
                 <span className="text-lg text-muted-foreground">
                   à vista
                 </span>
+                <span className="text-sm text-muted-foreground mt-1">
+                  ou até 12x de R$ 10,33
+                </span>
                 <div className="mt-4 p-3 bg-green-50 rounded-lg border border-green-200 w-full text-center">
                   <p className="text-sm font-semibold text-green-900 flex items-center justify-center gap-2">
                     <DollarSign className="h-4 w-4" />

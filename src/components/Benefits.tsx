@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 import { useUTMs } from '@/lib/utm-utils'
 
 const Benefits = () => {
-  const { getLastLinkWithUTMs } = useUTMs()
+  const { getInvestmentLink } = useUTMs()
 
   const differentials = [
     {
@@ -259,7 +259,7 @@ const Benefits = () => {
             style={{ animationDelay: '700ms', animationFillMode: 'forwards' }}
           >
             <Button variant="cta" size="lg" asChild>
-              <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">
+              <a href={getInvestmentLink()}>
                 QUERO A TRANSFORMAÇÃO
               </a>
             </Button>

@@ -65,7 +65,7 @@ const Features = () => {
         '<strong>Newsletter:</strong> voz única',
         '<strong>PDFs:</strong> transformar em insights',
         '<strong>Carrosséis:</strong> visual para Instagram',
-        '<strong>Estilo autor:</strong> escrever como Hemingway',
+        '<strong>Estilo autor:</strong> escrever como seu escritor favorito',
         '<strong>Voz personalizada:</strong> ensine IA SUA voz',
         '<strong>Mentor IA:</strong> crie mentor pro seu negócio',
         '<strong>Especialista:</strong> IA em qualquer área',

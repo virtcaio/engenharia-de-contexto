@@ -38,7 +38,7 @@ const Footer = () => {
                 <Instagram className="h-6 w-6" aria-hidden="true" />
               </a>
               <a
-                href="https://www.linkedin.com/in/caiopiubelo"
+                href="https://www.linkedin.com/in/caiointeligenciaartificial/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/70 hover:text-tangerine transition-colors"
