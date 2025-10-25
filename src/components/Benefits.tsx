@@ -70,7 +70,7 @@ const Benefits = () => {
   ]
 
   return (
-    <section id="diferenciais" className="py-8 bg-white relative">
+    <section id="diferenciais" className="py-6 bg-white relative">
       <div className="section-container">
         {/* DIFERENCIAIS */}
         {/* Tag */}

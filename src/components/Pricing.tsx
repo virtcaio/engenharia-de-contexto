@@ -17,7 +17,7 @@ const Pricing = () => {
   ]
 
   return (
-    <section id="investimento" className="py-8 bg-seasalt relative">
+    <section id="investimento" className="py-6 bg-seasalt relative">
       <div className="section-container">
         {/* Tag */}
         <div

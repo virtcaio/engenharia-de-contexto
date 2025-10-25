@@ -2,7 +2,7 @@ import { Check, X } from 'lucide-react'
 
 const Insight = () => {
   return (
-    <section id="insight" className="py-8 bg-seasalt relative">
+    <section id="insight" className="py-6 bg-seasalt relative">
       <div className="section-container">
         {/* Tag */}
         <div

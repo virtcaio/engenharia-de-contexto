@@ -50,7 +50,7 @@ const FAQ = () => {
   ]
 
   return (
-    <section id="faq" className="py-8 bg-white relative">
+    <section id="faq" className="py-6 bg-white relative">
       <div className="section-container">
         {/* Tag */}
         <div

@@ -6,7 +6,7 @@ const CallToAction = () => {
   const { getLastLinkWithUTMs } = useUTMs()
 
   return (
-    <section className="py-8 bg-tangerine text-white relative overflow-hidden">
+    <section className="py-6 bg-tangerine text-white relative overflow-hidden">
       {/* Gradientes decorativos */}
       <div className="absolute -top-64 -right-64 w-[500px] h-[500px] rounded-full bg-viridian/20 blur-3xl"></div>
       <div className="absolute -bottom-64 -left-64 w-[500px] h-[500px] rounded-full bg-viridian/20 blur-3xl"></div>

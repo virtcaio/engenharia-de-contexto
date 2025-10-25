@@ -24,7 +24,7 @@ const Target = () => {
   ]
 
   return (
-    <section id="para-quem" className="py-8 bg-seasalt relative">
+    <section id="para-quem" className="py-6 bg-seasalt relative">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
           {/* É para você */}

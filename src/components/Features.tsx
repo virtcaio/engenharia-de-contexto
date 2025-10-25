@@ -75,7 +75,7 @@ const Features = () => {
   ]
 
   return (
-    <section id="modulos" className="py-8 bg-seasalt relative">
+    <section id="modulos" className="py-6 bg-seasalt relative">
       <div className="section-container">
         {/* Tag */}
         <div
