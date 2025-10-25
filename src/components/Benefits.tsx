@@ -13,9 +13,9 @@ const Benefits = () => {
       description: 'IA conectada com suas ferramentas.',
       intro: 'Ao invés de copiar e colar arquivos toda hora:',
       benefits: [
-        'IA enxerga sua agenda diretamente',
-        'IA enxerga seus emails',
-        'IA enxerga seus arquivos',
+        'IA acessa sua agenda diretamente',
+        'IA lê seus emails',
+        'IA conecta com seus arquivos',
         'Mudou algo? IA já sabe.',
       ],
       tools: [
@@ -26,7 +26,7 @@ const Benefits = () => {
         'Notas (Notion, Apple Notes)',
         'Dados (Stripe, Filesystem)',
       ],
-      result: 'IA enxerga TODO seu contexto de trabalho.',
+      result: 'IA acessa TODO seu contexto de trabalho.',
       highlight: 'Não é "futuro". É agora. E quase ninguém sabe.',
     },
     {
@@ -44,7 +44,7 @@ const Benefits = () => {
         'Automação cuida do contexto.',
         'IA sempre atualizada.',
       ],
-      result: 'Economia de 2-3 horas/semana em trabalho manual.',
+      result: 'Economia de horas/semana em trabalho manual.',
     },
     {
       icon: <Briefcase className="h-8 w-8 text-tangerine" aria-hidden="true" />,

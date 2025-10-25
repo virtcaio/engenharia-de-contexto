@@ -13,7 +13,7 @@ const Footer = () => {
               Engenharia de <span className="text-tangerine">Contexto</span>
             </h3>
             <p className="text-white/70 mb-6 max-w-2xl">
-              O sistema completo para dominar Claude + MCP + Automação.
+              O sistema completo para dominar IA conectada às suas ferramentas.
               2-3 horas direto ao ponto. 4 módulos práticos. Zero enrolação.
             </p>
 

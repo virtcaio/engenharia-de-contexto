@@ -39,9 +39,9 @@ const Features = () => {
       icon: <LinkIcon className="h-6 w-6 text-tangerine" aria-hidden="true" />,
       title: 'MÓDULO 3: IA CONECTADA (Suas Ferramentas)',
       lessons: '10 aulas de integrações',
-      objective: 'IA enxerga TODO seu contexto de trabalho. Zero trabalho manual.',
+      objective: 'IA acessa TODO seu contexto de trabalho. Zero trabalho manual.',
       items: [
-        'IA que <strong>enxerga</strong> sua agenda, emails e arquivos',
+        'IA que <strong>acessa</strong> sua agenda, emails e arquivos',
         'Zero trabalho manual (tudo automático)',
         'Contexto completo sempre',
         '<strong>10 conexões práticas:</strong>',

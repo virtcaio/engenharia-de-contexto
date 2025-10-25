@@ -8,7 +8,7 @@ const Pricing = () => {
   const includes = [
     'Acesso imediato ao curso completo',
     '4 módulos práticos (29 aulas)',
-    '2-3 horas de conteúdo direto ao ponto',
+    'Conteúdo direto ao ponto, sem enrolação',
     'IA Conectada: 10 ferramentas integradas',
     'IA Automática: sempre atualizada',
     '7 templates prontos pra usar',
@@ -152,8 +152,8 @@ const Pricing = () => {
                   <p className="text-xs text-muted-foreground">Acesso imediato</p>
                 </div>
                 <div className="p-2">
-                  <Clock className="h-5 w-5 text-tangerine mx-auto mb-1" />
-                  <p className="text-xs text-muted-foreground">2-3 horas</p>
+                  <Clock className="h-5 w-5 text-tangerine mx-auto mb-1" aria-hidden="true" />
+                  <p className="text-xs text-muted-foreground">Rápido</p>
                 </div>
               </div>
             </div>

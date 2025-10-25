@@ -36,7 +36,7 @@ const NavBar = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="cta" size="sm" asChild>
+            <Button variant="cta" size="default" asChild>
               <a href="#investimento">Começar Agora</a>
             </Button>
           </div>
@@ -73,7 +73,7 @@ const NavBar = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="cta" size="sm" className="w-full" asChild>
+            <Button variant="cta" size="default" className="w-full" asChild>
               <a href="#investimento" onClick={() => setIsMenuOpen(false)}>
                 Começar Agora
               </a>

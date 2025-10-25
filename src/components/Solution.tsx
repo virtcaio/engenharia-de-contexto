@@ -100,8 +100,8 @@ const Solution = () => {
             {/* Badges de características */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="text-center p-4 bg-white rounded-xl shadow-sm">
-                <Clock className="h-8 w-8 text-tangerine mx-auto mb-2" />
-                <p className="font-bold">2-3 horas</p>
+                <Clock className="h-8 w-8 text-tangerine mx-auto mb-2" aria-hidden="true" />
+                <p className="font-bold">Rápido</p>
                 <p className="text-sm text-muted-foreground">Direto ao ponto</p>
               </div>
               <div className="text-center p-4 bg-white rounded-xl shadow-sm">

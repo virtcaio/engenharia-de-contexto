@@ -12,13 +12,13 @@ const Target = () => {
     'Você quer IA que funciona a 100% (não 20%)',
     'Você quer automação real (não trabalho manual)',
     'Você quer templates prontos (não teoria)',
-    'Você prefere 2-3 horas direto ao ponto (não 40h de enrolação)',
+    'Você prefere conteúdo direto ao ponto (não 40h de enrolação)',
   ]
 
   const notForYou = [
     'Você nunca usou IA (comece com IA grátis primeiro)',
     'Você quer "prompt mágico" que resolve tudo (não existe)',
-    'Você não quer investir 2-3 horas aprendendo (quer atalho)',
+    'Você não quer investir tempo aprendendo (quer atalho)',
     'Você está feliz com resultados inconsistentes (não vejo problema)',
     'Você acha que IA grátis é suficiente (pode ser, depende do uso)',
   ]

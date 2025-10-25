@@ -20,7 +20,7 @@ const FAQ = () => {
     {
       question: 'Quanto tempo leva?',
       answer:
-        '2-3 horas de aulas. Aplicação imediata. Você pode assistir tudo de uma vez ou no seu ritmo.',
+        'Curso rápido e objetivo. Aplicação imediata. Você pode assistir tudo de uma vez ou no seu ritmo.',
     },
     {
       question: 'Tem suporte?',
@@ -30,7 +30,7 @@ const FAQ = () => {
     {
       question: 'O que é "IA Conectada"?',
       answer:
-        'É quando a IA enxerga diretamente suas ferramentas de trabalho (Google Drive, Gmail, Github, etc) sem você precisar copiar e colar. Quase ninguém sabe fazer isso. Você vai aprender a conectar 10 ferramentas no curso.',
+        'É quando a IA se conecta diretamente às suas ferramentas de trabalho (Google Drive, Gmail, Github, etc) sem você precisar copiar e colar. Quase ninguém sabe fazer isso. Você vai aprender a conectar 10 ferramentas no curso.',
     },
     {
       question: 'Preciso pagar por outras ferramentas?',

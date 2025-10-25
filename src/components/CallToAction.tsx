@@ -110,7 +110,7 @@ const CallToAction = () => {
           style={{ animationDelay: '900ms', animationFillMode: 'forwards' }}
         >
           <p className="text-lg mb-2">
-            Acesso imediato. 4 módulos. 2-3 horas. Zero enrolação.
+            Acesso imediato. 4 módulos. 29 aulas práticas. Zero enrolação.
           </p>
           <p className="text-2xl font-bold">
             R$ 97 (oferta de lançamento)
@@ -138,7 +138,7 @@ const CallToAction = () => {
         >
           <p className="text-lg italic">
             <strong>P.S.:</strong> Você já gastou quantas horas copiando e colando contexto manualmente?
-            Quanto tempo você perdeu com prompts que não funcionaram? Este curso economiza 2-3 horas/semana
+            Quanto tempo você perdeu com prompts que não funcionaram? Este curso economiza horas/semana
             em trabalho manual. Em um mês, já se pagou.
           </p>
         </div>
