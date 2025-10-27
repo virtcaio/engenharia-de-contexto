@@ -7,25 +7,21 @@ const Header = () => {
   return (
     <section className="relative bg-seasalt overflow-hidden">
       <div className="section-container pt-24 pb-16">
-        {/* Tag */}
-        <div
-          className="flex justify-center w-full mb-8 animate-fade-up opacity-0"
-          style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}
-        >
-          <div className="tag text-center">
-            IA que funciona SEMPRE
-          </div>
-        </div>
-
         {/* Headline */}
         <h1
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center leading-tight mb-6 animate-fade-up opacity-0"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center leading-tight mb-4 animate-fade-up opacity-0"
+          style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}
+        >
+          Por que seus prompts falham <span className="text-tangerine">80% das vezes</span>
+        </h1>
+
+        {/* Subtitle */}
+        <p
+          className="text-lg sm:text-xl md:text-2xl text-center text-muted-foreground mb-12 animate-fade-up opacity-0"
           style={{ animationDelay: '300ms', animationFillMode: 'forwards' }}
         >
-          Meus prompts funcionaram <span className="text-tangerine">às vezes</span>.
-          <br />
-          Vou te mostrar como funcionar <span className="text-tangerine">SEMPRE</span>.
-        </h1>
+          (E como fazer a IA entregar exatamente o que você precisa, toda vez)
+        </p>
 
         {/* Subheadline */}
         <div
@@ -33,16 +29,17 @@ const Header = () => {
           style={{ animationDelay: '500ms', animationFillMode: 'forwards' }}
         >
           <p className="text-xl text-muted-foreground mb-4">
-            Você pegou meus prompts. Alguns funcionaram incrivelmente bem. Outros, nem tanto.
+            Você sabe que a IA pode fazer muito mais.
           </p>
           <p className="text-xl text-muted-foreground mb-4">
-            Quer saber por quê?
+            Mas seus prompts funcionam... <span className="font-semibold">às vezes</span>.
           </p>
           <p className="text-xl text-muted-foreground mb-4">
-            A diferença não está no prompt.
+            A diferença não está no prompt. Está no <span className="text-tangerine font-semibold">CONTEXTO</span>.
           </p>
           <p className="text-xl font-semibold text-night">
-            Está em <span className="text-tangerine">ensinar a IA a te entender</span>.
+            Aprenda o método de engenharia que transforma a IA<br />
+            de <span className="text-muted-foreground">"talvez ajude"</span> para <span className="text-tangerine">"sempre entrega"</span>
           </p>
         </div>
 

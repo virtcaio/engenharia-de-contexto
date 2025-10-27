@@ -103,7 +103,10 @@ const Footer = () => {
             © {currentYear} Engenharia de Contexto. Todos os direitos reservados.
           </p>
           <p className="mt-2 text-sm">
-            Criado por <a href="https://www.instagram.com/caiointeligenciaartificial" target="_blank" rel="noopener noreferrer" className="text-tangerine hover:underline">Caio IA</a>
+            Criado por <a href="https://caioia.com" target="_blank" rel="noopener noreferrer" className="text-tangerine hover:underline">Caio IA</a>
+          </p>
+          <p className="mt-2 text-sm">
+            CAIO IA INFORMATICA LTDA • CNPJ: 17.155.262/0001-28
           </p>
         </div>
       </div>

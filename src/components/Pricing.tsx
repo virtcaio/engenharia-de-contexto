@@ -13,7 +13,6 @@ const Pricing = () => {
     'IA Automática: sempre atualizada',
     '7 templates prontos pra usar',
     'Atualizações gratuitas do conteúdo',
-    'Suporte via comunidade',
   ]
 
   return (

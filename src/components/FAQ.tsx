@@ -97,7 +97,7 @@ const FAQ = () => {
     {
       question: 'Tem atualizações? Pago de novo se o Claude mudar?',
       answer:
-        'Atualizações são gratuitas. Quando o Claude adicionar novos recursos, MCP lançar novas integrações ou surgirem casos práticos relevantes, você recebe as atualizações sem custo adicional. Acesso vitalício.',
+        'Atualizações são gratuitas por 1 ano. Quando o Claude adicionar novos recursos, MCP lançar novas integrações ou surgirem casos práticos relevantes, você recebe as atualizações sem custo adicional durante 1 ano.',
     },
 
     // CATEGORIA 5: SUPORTE E ACESSO
@@ -105,11 +105,6 @@ const FAQ = () => {
       question: 'Como funciona o suporte? Tem comunidade?',
       answer:
         'Suporte via email para dúvidas técnicas sobre o conteúdo do curso. NÃO tem comunidade. Tem formulário de feedback e newsletter semanal com insights e atualizações. O foco é ensinar metodologia, não resolver problemas específicos para você.',
-    },
-    {
-      question: 'O acesso é vitalício ou expira?',
-      answer:
-        'Acesso vitalício. Assista quantas vezes quiser, no seu ritmo. Atualizações gratuitas incluídas. Você paga uma vez e tem acesso para sempre.',
     },
     {
       question: 'Se eu travar em alguma integração, o que faço?',
