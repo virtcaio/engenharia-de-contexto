@@ -89,9 +89,11 @@ const Pricing = () => {
           >
             <div className="feature-card border-2 border-tangerine sticky top-24">
               {/* Badge Oferta */}
-              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-tangerine to-viridian text-white px-4 py-2 rounded-full text-sm font-bold mb-6">
-                <Sparkles className="h-4 w-4" />
-                Oferta de Lançamento
+              <div className="flex justify-center mb-6">
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-tangerine to-viridian text-white px-4 py-2 rounded-full text-sm font-bold">
+                  <Sparkles className="h-4 w-4" />
+                  Oferta de Lançamento
+                </div>
               </div>
 
               {/* Preços */}

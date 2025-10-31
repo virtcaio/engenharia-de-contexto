@@ -96,9 +96,13 @@ const CallToAction = () => {
             asChild
           >
             <a href={getLastLinkWithUTMs()} target="_blank" rel="noopener noreferrer">
-              <span className="flex items-center gap-3">
+              <span className="hidden sm:flex items-center gap-3">
                 QUERO OPÇÃO 2: AUTONOMIA COMPLETA
                 <ArrowRight className="h-6 w-6" />
+              </span>
+              <span className="sm:hidden flex items-center gap-2 text-base">
+                QUERO AUTONOMIA
+                <ArrowRight className="h-5 w-5" />
               </span>
             </a>
           </Button>

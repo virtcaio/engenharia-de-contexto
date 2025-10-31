@@ -139,7 +139,8 @@ const Solution = () => {
             <div className="text-center">
               <Button variant="cta" size="lg" asChild>
                 <a href={getInvestmentLink()}>
-                  QUERO DOMINAR O SISTEMA COMPLETO
+                  <span className="hidden sm:inline">QUERO DOMINAR O SISTEMA COMPLETO</span>
+                  <span className="sm:hidden">QUERO DOMINAR</span>
                 </a>
               </Button>
               <p className="text-sm text-muted-foreground mt-4">
