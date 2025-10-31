@@ -14,12 +14,12 @@ const PromoBanner = () => {
             <Sparkles className="h-4 w-4 inline flex-shrink-0" aria-hidden="true" />
             <span className="hidden sm:inline">
               Oferta de Lançamento: <span className="font-bold">R$ 97</span>{' '}
-              <span className="line-through opacity-75">R$ 297</span> - Apenas para os primeiros 100 alunos!
+              <span className="line-through opacity-75">R$ 297</span> - <span className="font-bold">48/100 vagas preenchidas</span>
             </span>
             <span className="sm:hidden">
               <span className="font-bold">R$ 97</span>{' '}
               <span className="line-through text-xs opacity-75">R$ 297</span>
-              {' '}Primeiros 100 alunos!
+              {' '}<span className="font-bold">48/100 vagas</span>
             </span>
           </span>
         </div>
